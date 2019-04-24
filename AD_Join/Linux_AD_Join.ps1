@@ -1,7 +1,7 @@
 <#
     .SYNOPSIS
-        PowerShell script for joining a Linux machine to the domain. This has been crafted specifically for the floridadep.net domain and is
-        not agnostic to other domains. to Make it compatible with other domains, you need to update your config files for your specific domain.
+        PowerShell script for joining a Linux machine to the domain. Prior to running this on Ubuntu, you need to update the config files
+        with information relitative to your Active Directory domain.
 
     .DESCRIPTION
         This script installs the nessecery packages required to join an Active Directory domain. Checks what version of OS is installed and 
@@ -14,7 +14,7 @@
         Provide the username you will be using to join the domain.
 
     .PARAMETER Username
-        Name of the domain we will be joining. 
+        Name of the domain you will be joining. 
 
     .PARAMETER IsAzureVM
         There are a few requirements that need to be done in the Azure portal prior to this running, namely setting the DNS servers for the NIC.
