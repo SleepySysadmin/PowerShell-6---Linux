@@ -7,3 +7,6 @@ https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powersh
 
 If you are joining a Ubuntu machine to your Active Directory domain, you'll need to update the config files, bundled with this script, with information relitative to your AD domain:
 
+![image](https://github.com/SleepySysadmin/PowerShell-6---Linux/blob/master/AD_Join/Images/smbconf-example.png)
+
+![image](https://github.com/SleepySysadmin/PowerShell-6---Linux/blob/master/AD_Join/Images/sssdconf-example.png)
