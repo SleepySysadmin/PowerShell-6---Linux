@@ -1,7 +1,7 @@
 # Join Active Directory on Linux with PowerShell 6!
 
 ## Requirements
-In order for this to work, you'll need to have PowerShell Core installed on the machine. See the Microsoft guide below for your distro
+In order for this to work, you'll need to have PowerShell Core installed on the machine. See the Microsoft guide below for your particular distro:
 
 https://docs.microsoft.com/en-us/powershell/scripting/install/installing-powershell-core-on-linux?view=powershell-6
 
