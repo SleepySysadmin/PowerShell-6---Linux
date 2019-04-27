@@ -13,7 +13,7 @@
     .PARAMETER Username
         Provide the username you will be using to join the domain.
 
-    .PARAMETER Username
+    .PARAMETER Domain
         Name of the domain you will be joining. 
 
     .PARAMETER IsAzureVM
